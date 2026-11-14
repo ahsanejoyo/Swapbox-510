@@ -19,9 +19,9 @@
   </tr>
 </table>
 
-The Swapbox-510 is an embedded variable voltage controller powered by the Raspberry Pi Pico (RP2040). It features a custom user interface driven by a 128x64 OLED display and buttons, delivering modular power regulation over a high-current, 510-threaded magnetic interface. 
+The Swapbox-510 is an embedded variable voltage controller powered by the Raspberry Pi Pico (RP2040). It features a custom UI driven by a 128x64 ssd1306 OLED display and 3 buttons, delivering modular power regulation over a high-current, 510-threaded magnetic interface. 
 
-The system utilizes Pulse-Width Modulation (PWM) through a power MOSFET driver circuit to deliver precise, regulated energy bursts to modular attachments—including micro-soldering tips, high-intensity LED light tools, and custom resistive heating elements.
+The system utilizes Pulse-Width Modulation (PWM) to manipulate the gate voltage of a power MOSFET  to deliver precise, regulated  bursts to modular attachments—including soldering tips, high-intensity LED  tools, and custom resistive heating elements (1.6-2.2 ohms).
 
 | Parameter | Specification |
 | :--- | :--- |
